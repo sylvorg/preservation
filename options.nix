@@ -41,7 +41,7 @@ let
             "symlink"
             "_intermediate" # TODO find a better name. maybe "structure"?
           ];
-          default = "bindmount";
+          default = "symlink";
           description = ''
             Specify how this directory should be preserved.
 
@@ -188,7 +188,7 @@ let
             "bindmount"
             "symlink"
           ];
-          default = "bindmount";
+          default = "symlink";
           description = ''
             Specify how this file should be preserved:
 
